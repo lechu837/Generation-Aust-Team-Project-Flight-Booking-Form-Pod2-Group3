@@ -4,41 +4,80 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Flight Booking Form</title>
 </head>
 <body>
-    <h2>Booking Contact Details</h2>
-    <ul class="list">
-        <li>
-          <span class="category">Contact Name</span>
-          
-        </li>
-        <li>
-          <span class="category">Address</span>
-          
-        </li>
-        <li>
-          <span class="category">Payement Method</span>
-          
-        </li>
-        <li>
-          <span class="category">email</span>
-          
-        </li>
-        <li>
-          <span class="category">Mobile</span>
-          
-        </li>
-        <li>
-          <span class="category">More Info(Optional)</span>
-          
-        </li>
-        <li>
-          <span class="category">Submit</span>
-          
-        </li>
-      </ul>
-    </div>
-  </div>
-</body>
+    <h1> Passenger Details</h1>
+     <form action="submission.html" method="POST"></form>
+       <section class="Passenger 1 Adult"></section>
+       <!-- Passenger 1 Information-->
+        <span>Passenger 1 (Adult)</span><br><br>
+       <!-- Passenger 1 Name using text input-->
+      <label for="passenger1name">Name: </label>
+      <input type="text" name="" id="passenger1name">
+      <br><br>
+      <!-- Passenger 1 gender using radiobutton input-->
+      <label for="Male">Male</label>
+      <input id="Male" type="radio" name="Male" value="Male">
+      <label for="Female">Female</label>
+      <input id="Female" type="radio" name="Female" value="Female"><br><br>
+      <!-- Passenger 1 age using number input-->
+      <label for="age">Age</label>
+      <input id="age" type="number" step="1" name="age"><br><br>
+      <!-- Passenger 1 foodtype using dropdown input-->
+     <label for="foodtype">Food Type:</label>
+     <select id="foodtype" name="foodtype">
+       <option value="veg">Vegetarian</option>option>
+       <option value="nonveg">Non-Vegetarian</option>
+     </select><br><br><br>
+     <!-- Passenger 1 Information-->
+     <section class="Passenger 2 Adult"></section>
+      <span> Passenger 2 (Adult)</span><br><br>
+      <!-- Passenger 2 name using text input-->
+      <label for="passenger2name">Name: </label>
+      <input type="text" name="name" id="passenger2name">
+      <br><br>
+      <!-- Passenger 2 gender using radiobutton input-->
+      <label for="Male">Male</label>
+      <input id="Male" type="radio" name="Male" value="Male">
+      <label for="Female">Female</label>
+      <input id="Female" type="radio" name="Female" value="Female"><br><br>
+      <!-- Passenger 2 age using number input-->
+      <label for="age">Age</label>
+     <input id="age" type="number" step="1" name="age"><br><br>
+     <!-- Passenger 2 foodtype using dropdown input-->
+    <label for="foodtype">Food Type:</label>
+     <select id="foodtype" name="foodtype">
+       <option value="veg">Vegetarian</option>option>
+       <option value="nonveg">Non-Vegetarian</option>
+     </select><br><br><br>
+
+     <!-- Passenger 3 Information-->
+     <section class="Passenger 3 Child"></section>
+      <span> Passenger 3 (Child)</span><br><br>
+       <!-- Passenger 3 name using text input-->
+      <label for="passenger3name">Name: </label>
+      <input type="text" name="" id="passenger3name">
+      <br><br>
+      <!-- Passenger 3 gender using radiobutton input-->
+      <label for="Male">Male</label>
+      <input id="Male" type="radio" name="Male" value="Male">
+      <label for="Female">Female</label>
+      <input id="Female" type="radio" name="Female" value="Female"><br><br>
+      <!-- Passenger 3 age using number input-->
+      <label for="age">Age</label>
+      <input id="age" type="number" step="1" name="age"><br><br>
+      <!-- Passenger 3 foodtype using dropdown input-->
+
+     <label for="foodtype">Food Type:</label>
+     <select id="foodtype" name="foodtype">
+       <option value="veg">Vegetarian</option>option>
+       <option value="nonveg">Non-Vegetarian</option>
+     </select>
+     
+    </section>
+
+
+      </body>
 </html>
